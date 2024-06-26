@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "gps_sender = movingbox_gps.gps_sender:main"
         ],
     },
 )

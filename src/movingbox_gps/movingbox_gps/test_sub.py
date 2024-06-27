@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import rclpy
 from rclpy.node import Node
-from std_msgs.msg import Float64MultiArray
+from sensor_msgs.msg import NavSatFix
 
 
 class Test_Subscriber(Node):
@@ -9,7 +9,7 @@ class Test_Subscriber(Node):
     def __init__(self):
         super().__init__("test_sub")
         self.subscription = self.create_subscription(
-            Float64MultiArray,
+            NavSatFix,
             'gps_data',
             self.listener_callback,
             10
@@ -17,7 +17,7 @@ class Test_Subscriber(Node):
 
                 
     def listener_callback(self, msg):
-        self.get_logger().info('I heard: Lat: ' + str(msg.data[0]) + ', Lon: ' + str(msg.data[1]))
+        self.get_logger().info('I heard: Lat: ' + str(msg.latitude) + ', Lon: ' + str(msg.longitude))
 
         
 

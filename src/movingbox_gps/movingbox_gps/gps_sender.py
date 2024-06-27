@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import rclpy
 from rclpy.node import Node
+from sensor_msgs.msg import NavSatFix
 from std_msgs.msg import Float64MultiArray
 
 from gps3 import gps3
@@ -16,7 +17,7 @@ class GPS_Sender(Node):
         self.gps_socket.watch()
 
         self.create_timer(1, self.timer_callback)
-        self.publisher = self.create_publisher(Float64MultiArray, "/gps_data", 10)
+        self.publisher = self.create_publisher(NavSatFix, "/gps_data", 10)
                 
     def timer_callback(self):
         new_data = self.gps_socket.next()
@@ -25,12 +26,18 @@ class GPS_Sender(Node):
         self.data_stream.unpack(new_data)
         logger = self.get_logger()
 
-        msg = Float64MultiArray()
+        msg = NavSatFix()
         lat = self.data_stream.TPV['lat']
         lon = self.data_stream.TPV['lon']
-        if lat == "n/a" or lon == "n/a": return logger.warn("No GPS data.")
+        if lat == "n/a" or lon == "n/a":
+            self.has_data = False
+            return logger.warn("No GPS data.")
+    
+        if not self.has_data: logger.info("Successfully publishing data...")
+        self.has_data = True
 
-        msg.data = [float(lat), float(lon)]
+        msg.latitude = float(lat)
+        msg.longitude = float(lon)
         self.publisher.publish(msg)
 
         

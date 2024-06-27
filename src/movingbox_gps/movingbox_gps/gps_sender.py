@@ -16,7 +16,7 @@ class GPS_Sender(Node):
         self.gps_socket.watch()
 
         self.create_timer(1, self.timer_callback)
-        self.publisher = self.create_publisher(Float64MultiArray, "/gps_sender", 10)
+        self.publisher = self.create_publisher(Float64MultiArray, "/gps_data", 10)
                 
     def timer_callback(self):
         new_data = self.gps_socket.next()
@@ -28,7 +28,7 @@ class GPS_Sender(Node):
         msg = Float64MultiArray()
         lat = self.data_stream.TPV['lat']
         lon = self.data_stream.TPV['lon']
-        if lat == "n/a" or lon == "n/a": return logger.info("No data")
+        if lat == "n/a" or lon == "n/a": return logger.warn("No GPS data.")
 
         msg.data = [float(lat), float(lon)]
         self.publisher.publish(msg)

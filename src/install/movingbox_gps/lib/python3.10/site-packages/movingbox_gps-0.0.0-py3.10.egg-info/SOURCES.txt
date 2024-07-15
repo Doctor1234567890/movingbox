@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../build/movingbox_gps/movingbox_gps.egg-info/PKG-INFO
+../build/movingbox_gps/movingbox_gps.egg-info/SOURCES.txt
+../build/movingbox_gps/movingbox_gps.egg-info/dependency_links.txt
+../build/movingbox_gps/movingbox_gps.egg-info/entry_points.txt
+../build/movingbox_gps/movingbox_gps.egg-info/requires.txt
+../build/movingbox_gps/movingbox_gps.egg-info/top_level.txt
+../build/movingbox_gps/movingbox_gps.egg-info/zip-safe
+movingbox_gps/__init__.py
+movingbox_gps/gps_sender.py
+movingbox_gps/test_sub.py
+resource/movingbox_gps
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

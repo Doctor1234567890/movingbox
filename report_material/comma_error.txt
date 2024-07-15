@@ -1,0 +1,21 @@
+ovingbox@movingbox-desktop:~/ros2_ws$ ros2 run movingbox_gps gps_sender
+Traceback (most recent call last):
+  File "/home/movingbox/ros2_ws/install/movingbox_gps/lib/movingbox_gps/gps_sender", line 33, in <module>
+    sys.exit(load_entry_point('movingbox-gps==0.0.0', 'console_scripts', 'gps_sender')())
+  File "/home/movingbox/ros2_ws/install/movingbox_gps/lib/movingbox_gps/gps_sender", line 25, in importlib_load_entry_point
+    return next(matches).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+AttributeError: 'NoneType' object has no attribute 'group'
+[ros2run]: Process exited with failure 1
+
+function where the error occured:
+def load(self):
+        """Load the entry point from its definition. If only a module
+        is indicated by the value, return that module. Otherwise,
+        return the named object.
+        """
+        match = self.pattern.match(self.value)
+        module = import_module(match.group('module'))
+        attrs = filter(None, (match.group('attr') or '').split('.'))
+        return functools.reduce(getattr, attrs, module)

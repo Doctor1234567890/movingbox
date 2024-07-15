@@ -1,0 +1,193 @@
+[0.000000] (-) TimerEvent: {}
+[0.002054] (movingbox_gps) JobQueued: {'identifier': 'movingbox_gps', 'dependencies': OrderedDict()}
+[0.002725] (movingbox_gps) JobStarted: {'identifier': 'movingbox_gps'}
+[0.099172] (-) TimerEvent: {}
+[0.201099] (-) TimerEvent: {}
+[0.302299] (-) TimerEvent: {}
+[0.403707] (-) TimerEvent: {}
+[0.504932] (-) TimerEvent: {}
+[0.606544] (-) TimerEvent: {}
+[0.708324] (-) TimerEvent: {}
+[0.810553] (-) TimerEvent: {}
+[0.912254] (-) TimerEvent: {}
+[1.015521] (-) TimerEvent: {}
+[1.121047] (-) TimerEvent: {}
+[1.223336] (-) TimerEvent: {}
+[1.324417] (-) TimerEvent: {}
+[1.425781] (-) TimerEvent: {}
+[1.527186] (-) TimerEvent: {}
+[1.628290] (-) TimerEvent: {}
+[1.729826] (-) TimerEvent: {}
+[1.831004] (-) TimerEvent: {}
+[1.932898] (-) TimerEvent: {}
+[2.034222] (-) TimerEvent: {}
+[2.135588] (-) TimerEvent: {}
+[2.236957] (-) TimerEvent: {}
+[2.338369] (-) TimerEvent: {}
+[2.439792] (-) TimerEvent: {}
+[2.541012] (-) TimerEvent: {}
+[2.642516] (-) TimerEvent: {}
+[2.744830] (-) TimerEvent: {}
+[2.846297] (-) TimerEvent: {}
+[2.947265] (-) TimerEvent: {}
+[3.049192] (-) TimerEvent: {}
+[3.153216] (-) TimerEvent: {}
+[3.256011] (-) TimerEvent: {}
+[3.357489] (-) TimerEvent: {}
+[3.458751] (-) TimerEvent: {}
+[3.560110] (-) TimerEvent: {}
+[3.662505] (-) TimerEvent: {}
+[3.765002] (-) TimerEvent: {}
+[3.867698] (-) TimerEvent: {}
+[3.969982] (-) TimerEvent: {}
+[4.071765] (-) TimerEvent: {}
+[4.174262] (-) TimerEvent: {}
+[4.276100] (-) TimerEvent: {}
+[4.377308] (-) TimerEvent: {}
+[4.478970] (-) TimerEvent: {}
+[4.581157] (-) TimerEvent: {}
+[4.684127] (-) TimerEvent: {}
+[4.786691] (-) TimerEvent: {}
+[4.889026] (-) TimerEvent: {}
+[4.990882] (-) TimerEvent: {}
+[5.093772] (-) TimerEvent: {}
+[5.195746] (-) TimerEvent: {}
+[5.297725] (-) TimerEvent: {}
+[5.399159] (-) TimerEvent: {}
+[5.501013] (-) TimerEvent: {}
+[5.602317] (-) TimerEvent: {}
+[5.703570] (-) TimerEvent: {}
+[5.805026] (-) TimerEvent: {}
+[5.906572] (-) TimerEvent: {}
+[6.007769] (-) TimerEvent: {}
+[6.109286] (-) TimerEvent: {}
+[6.210573] (-) TimerEvent: {}
+[6.312264] (-) TimerEvent: {}
+[6.413818] (-) TimerEvent: {}
+[6.516710] (-) TimerEvent: {}
+[6.620458] (-) TimerEvent: {}
+[6.723248] (-) TimerEvent: {}
+[6.825538] (-) TimerEvent: {}
+[6.927910] (-) TimerEvent: {}
+[7.030094] (-) TimerEvent: {}
+[7.131742] (-) TimerEvent: {}
+[7.233446] (-) TimerEvent: {}
+[7.337653] (-) TimerEvent: {}
+[7.439552] (-) TimerEvent: {}
+[7.541492] (-) TimerEvent: {}
+[7.644759] (-) TimerEvent: {}
+[7.746497] (-) TimerEvent: {}
+[7.848670] (-) TimerEvent: {}
+[7.950450] (-) TimerEvent: {}
+[8.052819] (-) TimerEvent: {}
+[8.154302] (-) TimerEvent: {}
+[8.256074] (-) TimerEvent: {}
+[8.358065] (-) TimerEvent: {}
+[8.461822] (-) TimerEvent: {}
+[8.564472] (-) TimerEvent: {}
+[8.667408] (-) TimerEvent: {}
+[8.770312] (-) TimerEvent: {}
+[8.873191] (-) TimerEvent: {}
+[8.975423] (-) TimerEvent: {}
+[9.082608] (-) TimerEvent: {}
+[9.185094] (-) TimerEvent: {}
+[9.289614] (movingbox_gps) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/movingbox_gps', 'build', '--build-base', '/home/movingbox/ros2_ws/src/build/movingbox_gps/build', 'install', '--record', '/home/movingbox/ros2_ws/src/build/movingbox_gps/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/movingbox/ros2_ws/src/movingbox_gps', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'movingbox', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/movingbox', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/movingbox', 'TERM_PROGRAM_VERSION': '1.90.2', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'de_DE.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'SYSTEMD_EXEC_PID': '1685', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/movingbox/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'movingbox', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'movingbox', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/movingbox-desktop:@/tmp/.ICE-unix/1645,unix/movingbox-desktop:/tmp/.ICE-unix/1645', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f38d016d_af14_4d77_ba37_66cd1f73efdb', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.GDZKJ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-b1ab0c22d2.sock', 'GNOME_TERMINAL_SERVICE': ':1.98', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/movingbox/ros2_ws/install/movingbox_gps:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'QT_ACCESSIBILITY': '1', 'NO_AT_BRIDGE': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/movingbox/ros2_ws/src/build/movingbox_gps', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/movingbox/ros2_ws/src/build/movingbox_gps/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/movingbox/ros2_ws/src/install/movingbox_gps/lib/python3.10/site-packages:/home/movingbox/ros2_ws/install/movingbox_gps/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[9.314719] (-) TimerEvent: {}
+[9.445234] (-) TimerEvent: {}
+[9.548162] (-) TimerEvent: {}
+[9.651486] (-) TimerEvent: {}
+[9.754286] (-) TimerEvent: {}
+[9.856458] (-) TimerEvent: {}
+[9.958684] (-) TimerEvent: {}
+[10.060856] (-) TimerEvent: {}
+[10.162889] (-) TimerEvent: {}
+[10.265955] (-) TimerEvent: {}
+[10.368445] (-) TimerEvent: {}
+[10.471693] (-) TimerEvent: {}
+[10.575675] (-) TimerEvent: {}
+[10.678861] (-) TimerEvent: {}
+[10.780492] (-) TimerEvent: {}
+[10.882230] (-) TimerEvent: {}
+[10.983981] (-) TimerEvent: {}
+[11.086546] (-) TimerEvent: {}
+[11.188050] (-) TimerEvent: {}
+[11.294868] (-) TimerEvent: {}
+[11.397770] (-) TimerEvent: {}
+[11.502607] (-) TimerEvent: {}
+[11.605708] (-) TimerEvent: {}
+[11.709262] (-) TimerEvent: {}
+[11.812101] (-) TimerEvent: {}
+[11.915698] (-) TimerEvent: {}
+[12.018684] (-) TimerEvent: {}
+[12.120691] (-) TimerEvent: {}
+[12.222320] (-) TimerEvent: {}
+[12.324534] (-) TimerEvent: {}
+[12.426181] (-) TimerEvent: {}
+[12.528320] (-) TimerEvent: {}
+[12.629773] (-) TimerEvent: {}
+[12.731037] (-) TimerEvent: {}
+[12.832359] (-) TimerEvent: {}
+[12.933986] (-) TimerEvent: {}
+[13.036366] (-) TimerEvent: {}
+[13.138926] (-) TimerEvent: {}
+[13.241406] (-) TimerEvent: {}
+[13.344512] (-) TimerEvent: {}
+[13.446973] (-) TimerEvent: {}
+[13.549355] (-) TimerEvent: {}
+[13.651857] (-) TimerEvent: {}
+[13.753978] (-) TimerEvent: {}
+[13.855802] (-) TimerEvent: {}
+[13.958468] (-) TimerEvent: {}
+[14.060494] (-) TimerEvent: {}
+[14.162222] (-) TimerEvent: {}
+[14.167221] (movingbox_gps) StdoutLine: {'line': b'running egg_info\n'}
+[14.173116] (movingbox_gps) StdoutLine: {'line': b'creating ../build/movingbox_gps/movingbox_gps.egg-info\n'}
+[14.174966] (movingbox_gps) StdoutLine: {'line': b'writing ../build/movingbox_gps/movingbox_gps.egg-info/PKG-INFO\n'}
+[14.179562] (movingbox_gps) StdoutLine: {'line': b'writing dependency_links to ../build/movingbox_gps/movingbox_gps.egg-info/dependency_links.txt\n'}
+[14.182309] (movingbox_gps) StdoutLine: {'line': b'writing entry points to ../build/movingbox_gps/movingbox_gps.egg-info/entry_points.txt\n'}
+[14.184180] (movingbox_gps) StdoutLine: {'line': b'writing requirements to ../build/movingbox_gps/movingbox_gps.egg-info/requires.txt\n'}
+[14.191576] (movingbox_gps) StdoutLine: {'line': b'writing top-level names to ../build/movingbox_gps/movingbox_gps.egg-info/top_level.txt\n'}
+[14.193975] (movingbox_gps) StdoutLine: {'line': b"writing manifest file '../build/movingbox_gps/movingbox_gps.egg-info/SOURCES.txt'\n"}
+[14.212888] (movingbox_gps) StdoutLine: {'line': b"reading manifest file '../build/movingbox_gps/movingbox_gps.egg-info/SOURCES.txt'\n"}
+[14.220827] (movingbox_gps) StdoutLine: {'line': b"writing manifest file '../build/movingbox_gps/movingbox_gps.egg-info/SOURCES.txt'\n"}
+[14.223219] (movingbox_gps) StdoutLine: {'line': b'running build\n'}
+[14.225126] (movingbox_gps) StdoutLine: {'line': b'running build_py\n'}
+[14.229562] (movingbox_gps) StdoutLine: {'line': b'creating /home/movingbox/ros2_ws/src/build/movingbox_gps/build\n'}
+[14.231800] (movingbox_gps) StdoutLine: {'line': b'creating /home/movingbox/ros2_ws/src/build/movingbox_gps/build/lib\n'}
+[14.235177] (movingbox_gps) StdoutLine: {'line': b'creating /home/movingbox/ros2_ws/src/build/movingbox_gps/build/lib/movingbox_gps\n'}
+[14.237872] (movingbox_gps) StdoutLine: {'line': b'copying movingbox_gps/test_sub.py -> /home/movingbox/ros2_ws/src/build/movingbox_gps/build/lib/movingbox_gps\n'}
+[14.239249] (movingbox_gps) StdoutLine: {'line': b'copying movingbox_gps/gps_sender.py -> /home/movingbox/ros2_ws/src/build/movingbox_gps/build/lib/movingbox_gps\n'}
+[14.246534] (movingbox_gps) StdoutLine: {'line': b'copying movingbox_gps/__init__.py -> /home/movingbox/ros2_ws/src/build/movingbox_gps/build/lib/movingbox_gps\n'}
+[14.248084] (movingbox_gps) StdoutLine: {'line': b'running install\n'}
+[14.249194] (movingbox_gps) StdoutLine: {'line': b'running install_lib\n'}
+[14.255121] (movingbox_gps) StdoutLine: {'line': b'creating /home/movingbox/ros2_ws/src/install/movingbox_gps/lib/python3.10/site-packages/movingbox_gps\n'}
+[14.257865] (movingbox_gps) StdoutLine: {'line': b'copying /home/movingbox/ros2_ws/src/build/movingbox_gps/build/lib/movingbox_gps/test_sub.py -> /home/movingbox/ros2_ws/src/install/movingbox_gps/lib/python3.10/site-packages/movingbox_gps\n'}
+[14.259694] (movingbox_gps) StdoutLine: {'line': b'copying /home/movingbox/ros2_ws/src/build/movingbox_gps/build/lib/movingbox_gps/gps_sender.py -> /home/movingbox/ros2_ws/src/install/movingbox_gps/lib/python3.10/site-packages/movingbox_gps\n'}
+[14.262689] (movingbox_gps) StdoutLine: {'line': b'copying /home/movingbox/ros2_ws/src/build/movingbox_gps/build/lib/movingbox_gps/__init__.py -> /home/movingbox/ros2_ws/src/install/movingbox_gps/lib/python3.10/site-packages/movingbox_gps\n'}
+[14.263706] (-) TimerEvent: {}
+[14.268295] (movingbox_gps) StdoutLine: {'line': b'byte-compiling /home/movingbox/ros2_ws/src/install/movingbox_gps/lib/python3.10/site-packages/movingbox_gps/test_sub.py to test_sub.cpython-310.pyc\n'}
+[14.277373] (movingbox_gps) StdoutLine: {'line': b'byte-compiling /home/movingbox/ros2_ws/src/install/movingbox_gps/lib/python3.10/site-packages/movingbox_gps/gps_sender.py to gps_sender.cpython-310.pyc\n'}
+[14.283042] (movingbox_gps) StdoutLine: {'line': b'byte-compiling /home/movingbox/ros2_ws/src/install/movingbox_gps/lib/python3.10/site-packages/movingbox_gps/__init__.py to __init__.cpython-310.pyc\n'}
+[14.285603] (movingbox_gps) StdoutLine: {'line': b'running install_data\n'}
+[14.288108] (movingbox_gps) StdoutLine: {'line': b'creating /home/movingbox/ros2_ws/src/install/movingbox_gps/share/ament_index\n'}
+[14.290424] (movingbox_gps) StdoutLine: {'line': b'creating /home/movingbox/ros2_ws/src/install/movingbox_gps/share/ament_index/resource_index\n'}
+[14.293033] (movingbox_gps) StdoutLine: {'line': b'creating /home/movingbox/ros2_ws/src/install/movingbox_gps/share/ament_index/resource_index/packages\n'}
+[14.297983] (movingbox_gps) StdoutLine: {'line': b'copying resource/movingbox_gps -> /home/movingbox/ros2_ws/src/install/movingbox_gps/share/ament_index/resource_index/packages\n'}
+[14.299250] (movingbox_gps) StdoutLine: {'line': b'copying package.xml -> /home/movingbox/ros2_ws/src/install/movingbox_gps/share/movingbox_gps\n'}
+[14.300637] (movingbox_gps) StdoutLine: {'line': b'running install_egg_info\n'}
+[14.315408] (movingbox_gps) StdoutLine: {'line': b'Copying ../build/movingbox_gps/movingbox_gps.egg-info to /home/movingbox/ros2_ws/src/install/movingbox_gps/lib/python3.10/site-packages/movingbox_gps-0.0.0-py3.10.egg-info\n'}
+[14.336443] (movingbox_gps) StdoutLine: {'line': b'running install_scripts\n'}
+[14.364191] (-) TimerEvent: {}
+[14.465916] (-) TimerEvent: {}
+[14.568973] (-) TimerEvent: {}
+[14.614752] (movingbox_gps) StdoutLine: {'line': b'Installing gps_sender script to /home/movingbox/ros2_ws/src/install/movingbox_gps/lib/movingbox_gps\n'}
+[14.617236] (movingbox_gps) StdoutLine: {'line': b'Installing test_sub script to /home/movingbox/ros2_ws/src/install/movingbox_gps/lib/movingbox_gps\n'}
+[14.622774] (movingbox_gps) StdoutLine: {'line': b"writing list of installed files to '/home/movingbox/ros2_ws/src/build/movingbox_gps/install.log'\n"}
+[14.669821] (-) TimerEvent: {}
+[14.773662] (-) TimerEvent: {}
+[14.876351] (-) TimerEvent: {}
+[14.933977] (movingbox_gps) CommandEnded: {'returncode': 0}
+[14.977618] (-) TimerEvent: {}
+[15.083153] (-) TimerEvent: {}
+[15.147207] (movingbox_gps) JobEnded: {'identifier': 'movingbox_gps', 'rc': 0}
+[15.158549] (-) EventReactorShutdown: {}

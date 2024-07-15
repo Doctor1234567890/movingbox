@@ -1,0 +1,113 @@
+[0.696s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.697s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff8a162530>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8a162080>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8a162080>>, mixin_verb=('build',))
+[2.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.257s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/movingbox/ros2_ws/src'
+[2.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.258s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.258s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.258s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.336s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.336s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.336s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.337s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.337s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.337s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.338s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.338s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.338s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.339s] Level 1:colcon.colcon_core.package_identification:_identify(movingbox_gps) by extensions ['ignore', 'ignore_ament_install']
+[2.339s] Level 1:colcon.colcon_core.package_identification:_identify(movingbox_gps) by extension 'ignore'
+[2.339s] Level 1:colcon.colcon_core.package_identification:_identify(movingbox_gps) by extension 'ignore_ament_install'
+[2.340s] Level 1:colcon.colcon_core.package_identification:_identify(movingbox_gps) by extensions ['colcon_pkg']
+[2.340s] Level 1:colcon.colcon_core.package_identification:_identify(movingbox_gps) by extension 'colcon_pkg'
+[2.340s] Level 1:colcon.colcon_core.package_identification:_identify(movingbox_gps) by extensions ['colcon_meta']
+[2.340s] Level 1:colcon.colcon_core.package_identification:_identify(movingbox_gps) by extension 'colcon_meta'
+[2.340s] Level 1:colcon.colcon_core.package_identification:_identify(movingbox_gps) by extensions ['ros']
+[2.341s] Level 1:colcon.colcon_core.package_identification:_identify(movingbox_gps) by extension 'ros'
+[2.357s] DEBUG:colcon.colcon_core.package_identification:Package 'movingbox_gps' with type 'ros.ament_python' and name 'movingbox_gps'
+[2.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.484s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.485s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.498s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/movingbox/ros2_ws/install
+[2.510s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[2.522s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.790s] Level 5:colcon.colcon_core.verb:set package 'movingbox_gps' build argument 'cmake_args' from command line to 'None'
+[2.790s] Level 5:colcon.colcon_core.verb:set package 'movingbox_gps' build argument 'cmake_target' from command line to 'None'
+[2.790s] Level 5:colcon.colcon_core.verb:set package 'movingbox_gps' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.790s] Level 5:colcon.colcon_core.verb:set package 'movingbox_gps' build argument 'cmake_clean_cache' from command line to 'False'
+[2.790s] Level 5:colcon.colcon_core.verb:set package 'movingbox_gps' build argument 'cmake_clean_first' from command line to 'False'
+[2.790s] Level 5:colcon.colcon_core.verb:set package 'movingbox_gps' build argument 'cmake_force_configure' from command line to 'False'
+[2.790s] Level 5:colcon.colcon_core.verb:set package 'movingbox_gps' build argument 'ament_cmake_args' from command line to 'None'
+[2.791s] Level 5:colcon.colcon_core.verb:set package 'movingbox_gps' build argument 'catkin_cmake_args' from command line to 'None'
+[2.791s] Level 5:colcon.colcon_core.verb:set package 'movingbox_gps' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.791s] DEBUG:colcon.colcon_core.verb:Building package 'movingbox_gps' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/movingbox/ros2_ws/src/build/movingbox_gps', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/movingbox/ros2_ws/src/install/movingbox_gps', 'merge_install': False, 'path': '/home/movingbox/ros2_ws/src/movingbox_gps', 'symlink_install': False, 'test_result_base': None}
+[2.791s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.795s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.797s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/movingbox/ros2_ws/src/movingbox_gps' with build type 'ament_python'
+[2.797s] Level 1:colcon.colcon_core.shell:create_environment_hook('movingbox_gps', 'ament_prefix_path')
+[2.824s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/movingbox/ros2_ws/src/install/movingbox_gps/share/movingbox_gps/hook/ament_prefix_path.ps1'
+[2.831s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/movingbox/ros2_ws/src/install/movingbox_gps/share/movingbox_gps/hook/ament_prefix_path.dsv'
+[2.834s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/movingbox/ros2_ws/src/install/movingbox_gps/share/movingbox_gps/hook/ament_prefix_path.sh'
+[2.839s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.840s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.011s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/movingbox/ros2_ws/src/movingbox_gps'
+[6.013s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.014s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.107s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/movingbox/ros2_ws/src/movingbox_gps': PYTHONPATH=/home/movingbox/ros2_ws/src/build/movingbox_gps/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/movingbox/ros2_ws/src/install/movingbox_gps/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/movingbox_gps build --build-base /home/movingbox/ros2_ws/src/build/movingbox_gps/build install --record /home/movingbox/ros2_ws/src/build/movingbox_gps/install.log --single-version-externally-managed install_data
+[17.733s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/movingbox/ros2_ws/src/movingbox_gps' returned '0': PYTHONPATH=/home/movingbox/ros2_ws/src/build/movingbox_gps/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/movingbox/ros2_ws/src/install/movingbox_gps/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/movingbox_gps build --build-base /home/movingbox/ros2_ws/src/build/movingbox_gps/build install --record /home/movingbox/ros2_ws/src/build/movingbox_gps/install.log --single-version-externally-managed install_data
+[17.808s] Level 1:colcon.colcon_core.environment:checking '/home/movingbox/ros2_ws/src/install/movingbox_gps' for CMake module files
+[17.815s] Level 1:colcon.colcon_core.environment:checking '/home/movingbox/ros2_ws/src/install/movingbox_gps' for CMake config files
+[17.826s] Level 1:colcon.colcon_core.environment:checking '/home/movingbox/ros2_ws/src/install/movingbox_gps/lib'
+[17.830s] Level 1:colcon.colcon_core.environment:checking '/home/movingbox/ros2_ws/src/install/movingbox_gps/bin'
+[17.831s] Level 1:colcon.colcon_core.environment:checking '/home/movingbox/ros2_ws/src/install/movingbox_gps/lib/pkgconfig/movingbox_gps.pc'
+[17.834s] Level 1:colcon.colcon_core.environment:checking '/home/movingbox/ros2_ws/src/install/movingbox_gps/lib/python3.10/site-packages'
+[17.835s] Level 1:colcon.colcon_core.shell:create_environment_hook('movingbox_gps', 'pythonpath')
+[17.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/movingbox/ros2_ws/src/install/movingbox_gps/share/movingbox_gps/hook/pythonpath.ps1'
+[17.845s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/movingbox/ros2_ws/src/install/movingbox_gps/share/movingbox_gps/hook/pythonpath.dsv'
+[17.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/movingbox/ros2_ws/src/install/movingbox_gps/share/movingbox_gps/hook/pythonpath.sh'
+[17.861s] Level 1:colcon.colcon_core.environment:checking '/home/movingbox/ros2_ws/src/install/movingbox_gps/bin'
+[17.863s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(movingbox_gps)
+[17.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/movingbox/ros2_ws/src/install/movingbox_gps/share/movingbox_gps/package.ps1'
+[17.883s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/movingbox/ros2_ws/src/install/movingbox_gps/share/movingbox_gps/package.dsv'
+[17.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/movingbox/ros2_ws/src/install/movingbox_gps/share/movingbox_gps/package.sh'
+[17.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/movingbox/ros2_ws/src/install/movingbox_gps/share/movingbox_gps/package.bash'
+[17.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/movingbox/ros2_ws/src/install/movingbox_gps/share/movingbox_gps/package.zsh'
+[17.938s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/movingbox/ros2_ws/src/install/movingbox_gps/share/colcon-core/packages/movingbox_gps)
+[17.947s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[17.949s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[17.951s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[17.953s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[18.079s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[18.081s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[18.082s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[18.421s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[18.424s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/movingbox/ros2_ws/src/install/local_setup.ps1'
+[18.440s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/movingbox/ros2_ws/src/install/_local_setup_util_ps1.py'
+[18.454s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/movingbox/ros2_ws/src/install/setup.ps1'
+[18.465s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/movingbox/ros2_ws/src/install/local_setup.sh'
+[18.482s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/movingbox/ros2_ws/src/install/_local_setup_util_sh.py'
+[18.488s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/movingbox/ros2_ws/src/install/setup.sh'
+[18.508s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/movingbox/ros2_ws/src/install/local_setup.bash'
+[18.518s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/movingbox/ros2_ws/src/install/setup.bash'
+[18.529s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/movingbox/ros2_ws/src/install/local_setup.zsh'
+[18.533s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/movingbox/ros2_ws/src/install/setup.zsh'

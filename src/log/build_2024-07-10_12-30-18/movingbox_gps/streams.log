@@ -1,0 +1,41 @@
+[9.301s] Invoking command in '/home/movingbox/ros2_ws/src/movingbox_gps': PYTHONPATH=/home/movingbox/ros2_ws/src/build/movingbox_gps/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/movingbox/ros2_ws/src/install/movingbox_gps/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/movingbox_gps build --build-base /home/movingbox/ros2_ws/src/build/movingbox_gps/build install --record /home/movingbox/ros2_ws/src/build/movingbox_gps/install.log --single-version-externally-managed install_data
+[14.166s] running egg_info
+[14.171s] creating ../build/movingbox_gps/movingbox_gps.egg-info
+[14.173s] writing ../build/movingbox_gps/movingbox_gps.egg-info/PKG-INFO
+[14.178s] writing dependency_links to ../build/movingbox_gps/movingbox_gps.egg-info/dependency_links.txt
+[14.180s] writing entry points to ../build/movingbox_gps/movingbox_gps.egg-info/entry_points.txt
+[14.188s] writing requirements to ../build/movingbox_gps/movingbox_gps.egg-info/requires.txt
+[14.190s] writing top-level names to ../build/movingbox_gps/movingbox_gps.egg-info/top_level.txt
+[14.192s] writing manifest file '../build/movingbox_gps/movingbox_gps.egg-info/SOURCES.txt'
+[14.211s] reading manifest file '../build/movingbox_gps/movingbox_gps.egg-info/SOURCES.txt'
+[14.219s] writing manifest file '../build/movingbox_gps/movingbox_gps.egg-info/SOURCES.txt'
+[14.222s] running build
+[14.226s] running build_py
+[14.228s] creating /home/movingbox/ros2_ws/src/build/movingbox_gps/build
+[14.232s] creating /home/movingbox/ros2_ws/src/build/movingbox_gps/build/lib
+[14.234s] creating /home/movingbox/ros2_ws/src/build/movingbox_gps/build/lib/movingbox_gps
+[14.236s] copying movingbox_gps/test_sub.py -> /home/movingbox/ros2_ws/src/build/movingbox_gps/build/lib/movingbox_gps
+[14.237s] copying movingbox_gps/gps_sender.py -> /home/movingbox/ros2_ws/src/build/movingbox_gps/build/lib/movingbox_gps
+[14.245s] copying movingbox_gps/__init__.py -> /home/movingbox/ros2_ws/src/build/movingbox_gps/build/lib/movingbox_gps
+[14.246s] running install
+[14.248s] running install_lib
+[14.255s] creating /home/movingbox/ros2_ws/src/install/movingbox_gps/lib/python3.10/site-packages/movingbox_gps
+[14.256s] copying /home/movingbox/ros2_ws/src/build/movingbox_gps/build/lib/movingbox_gps/test_sub.py -> /home/movingbox/ros2_ws/src/install/movingbox_gps/lib/python3.10/site-packages/movingbox_gps
+[14.258s] copying /home/movingbox/ros2_ws/src/build/movingbox_gps/build/lib/movingbox_gps/gps_sender.py -> /home/movingbox/ros2_ws/src/install/movingbox_gps/lib/python3.10/site-packages/movingbox_gps
+[14.261s] copying /home/movingbox/ros2_ws/src/build/movingbox_gps/build/lib/movingbox_gps/__init__.py -> /home/movingbox/ros2_ws/src/install/movingbox_gps/lib/python3.10/site-packages/movingbox_gps
+[14.267s] byte-compiling /home/movingbox/ros2_ws/src/install/movingbox_gps/lib/python3.10/site-packages/movingbox_gps/test_sub.py to test_sub.cpython-310.pyc
+[14.276s] byte-compiling /home/movingbox/ros2_ws/src/install/movingbox_gps/lib/python3.10/site-packages/movingbox_gps/gps_sender.py to gps_sender.cpython-310.pyc
+[14.281s] byte-compiling /home/movingbox/ros2_ws/src/install/movingbox_gps/lib/python3.10/site-packages/movingbox_gps/__init__.py to __init__.cpython-310.pyc
+[14.284s] running install_data
+[14.287s] creating /home/movingbox/ros2_ws/src/install/movingbox_gps/share/ament_index
+[14.289s] creating /home/movingbox/ros2_ws/src/install/movingbox_gps/share/ament_index/resource_index
+[14.295s] creating /home/movingbox/ros2_ws/src/install/movingbox_gps/share/ament_index/resource_index/packages
+[14.296s] copying resource/movingbox_gps -> /home/movingbox/ros2_ws/src/install/movingbox_gps/share/ament_index/resource_index/packages
+[14.297s] copying package.xml -> /home/movingbox/ros2_ws/src/install/movingbox_gps/share/movingbox_gps
+[14.299s] running install_egg_info
+[14.314s] Copying ../build/movingbox_gps/movingbox_gps.egg-info to /home/movingbox/ros2_ws/src/install/movingbox_gps/lib/python3.10/site-packages/movingbox_gps-0.0.0-py3.10.egg-info
+[14.335s] running install_scripts
+[14.613s] Installing gps_sender script to /home/movingbox/ros2_ws/src/install/movingbox_gps/lib/movingbox_gps
+[14.616s] Installing test_sub script to /home/movingbox/ros2_ws/src/install/movingbox_gps/lib/movingbox_gps
+[14.621s] writing list of installed files to '/home/movingbox/ros2_ws/src/build/movingbox_gps/install.log'
+[14.933s] Invoked command in '/home/movingbox/ros2_ws/src/movingbox_gps' returned '0': PYTHONPATH=/home/movingbox/ros2_ws/src/build/movingbox_gps/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/movingbox/ros2_ws/src/install/movingbox_gps/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/movingbox_gps build --build-base /home/movingbox/ros2_ws/src/build/movingbox_gps/build install --record /home/movingbox/ros2_ws/src/build/movingbox_gps/install.log --single-version-externally-managed install_data
